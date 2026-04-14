@@ -1,0 +1,21 @@
+user_id,name,birth_year,country,gender,email,signup_date,preferred_device
+U1,Ana Souza,1994,Brazil,F,ana@souza.com,2019-03-10,Mobile
+U2,Lucas Martins,1988,Brazil,M,lucas@martins.com,2018-07-21,Web
+U3,John Miller,1975,USA,M,john.m@mail.com,2017-01-15,TV
+U4,Sofia Rossi,1992,Italy,F,sofia@rossi.it,2020-05-04,Mobile
+U5,Kenji Watanabe,1985,Japan,M,kenji@jp.net,2019-11-11,TV
+U6,Mariana Lopes,1999,Brazil,F,mariana@lopes.com,2021-06-02,Mobile
+U7,Paul Schmidt,1980,Germany,M,paul@de.org,2018-09-19,Web
+U8,Camila Torres,1991,Colombia,F,camila@co.com,2020-01-08,Mobile
+U9,Robert Wilson,1969,USA,M,robert@us.net,2016-12-01,TV
+U10,Laura Pérez,1987,Spain,F,laura@es.com,2019-04-14,Mobile
+U11,Felipe Nunes,1995,Brazil,M,felipe@nu.com,2022-03-03,Web
+U12,Yara Haddad,1990,Egypt,F,yara@eg.net,2018-06-25,Mobile
+U13,Thomas Lee,1983,Canada,M,thomas@ca.com,2017-10-30,TV
+U14,Isabelle Dubois,1978,France,F,isabelle@fr.fr,2016-08-12,Web
+U15,Daniel Silva,2001,Brazil,M,daniel@silva.com,2021-09-09,Mobile
+U16,Olga Ivanova,1986,Russia,F,olga@ru.net,2019-02-18,TV
+U17,Ahmed Ali,1993,India,M,ahmed@in.org,2020-07-07,Mobile
+U18,Peter Johnson,1982,UK,M,peter@uk.co,2018-11-28,Web
+U19,Rafaela Pinto,1997,Brazil,F,rafa@pinto.com,2022-01-05,Mobile
+U20,Victor Chen,1989,China,M,victor@cn.cn,2019-08-16,TV
