@@ -1,12 +1,12 @@
 package com.ada.projeto_final.domain;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.ada.projeto_final.domain.carga_bruta.UsuarioCarga;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 @Entity
 @AllArgsConstructor
@@ -18,5 +18,15 @@ public class Usuario {
     private Long id;
     private String nome;
     private String pais;
-    private Integer anoNascimento;
+    private String anoNascimento;
+
+    @Transient
+    private String id_carga;
+
+    public Usuario(UsuarioCarga usuario) {
+        this.id_carga = usuario.getUser_id();
+        this.nome = usuario.getName();
+        this.anoNascimento = usuario.getBirth_year();
+        this.pais = usuario.getCountry();
+    }
 }

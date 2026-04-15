@@ -1,5 +1,6 @@
 package com.ada.projeto_final.domain;
 
+import com.ada.projeto_final.domain.carga_bruta.FilmeCarga;
 import com.ada.projeto_final.dto.FilmeDTO;
 import com.ada.projeto_final.enums.GeneroEnum;
 import jakarta.persistence.*;
@@ -21,13 +22,21 @@ public class Filme {
     private String diretor;
     private Integer anoLancamento;
 
-    @OneToMany(mappedBy = "filme")
-    private List<AvaliacaoFilme> avaliacoes;
-
     @Enumerated(EnumType.STRING)
     private GeneroEnum genero;
 
+    @Transient
+    private String id_carga;
+
+    public Filme(FilmeCarga filme) {
+        this.id_carga = filme.getMovie_id();
+        this.titulo = filme.getTitle();
+        this.diretor = filme.getDirector();
+        this.anoLancamento = Integer.valueOf(filme.getRelease_year());
+        this.genero = GeneroEnum.getFromName(filme.getGenre());
+    }
+
     public static Filme generateEntity(FilmeDTO filmeDTO){
-        return new Filme(null, filmeDTO.getTitulo(), filmeDTO.getDiretor(), filmeDTO.getAnoLancamento(), null, GeneroEnum.valueOf(filmeDTO.getGenero()));
+        return new Filme(null, filmeDTO.getTitulo(), filmeDTO.getDiretor(), filmeDTO.getAnoLancamento(), GeneroEnum.valueOf(filmeDTO.getGenero()), null);
     }
 }

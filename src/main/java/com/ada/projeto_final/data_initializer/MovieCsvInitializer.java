@@ -5,7 +5,6 @@ import com.ada.projeto_final.csvloader.MovieCsvLoader;
 import com.ada.projeto_final.csvloader.RatingsCsvLoader;
 import com.ada.projeto_final.csvloader.UsersCsvLoader;
 import com.ada.projeto_final.service.DataService;
-import com.ada.projeto_final.service.FlixService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.io.ClassPathResource;
@@ -30,7 +29,6 @@ public class MovieCsvInitializer implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         System.out.println("Iniciando carga bruta dos arquivos");
-        // TODO: Criar tabelas para armazenar os dados brutos
         loadMovies();
         loadUsers();
         loadRatings();
@@ -50,7 +48,7 @@ public class MovieCsvInitializer implements CommandLineRunner {
             ratingsCsvLoader.load(inputStream);
         }
 
-        System.out.println("Carga do arquivo movies.csv finalizada com sucesso.");
+        System.out.println("Carga do arquivo ratings.csv finalizada com sucesso.");
     }
 
     private void loadUsers() throws IOException {
@@ -62,7 +60,7 @@ public class MovieCsvInitializer implements CommandLineRunner {
             usersCsvLoader.load(inputStream);
         }
 
-        System.out.println("Carga do arquivo movies.csv finalizada com sucesso.");
+        System.out.println("Carga do arquivo users.csv finalizada com sucesso.");
     }
 
     private void loadMovies()  throws IOException {

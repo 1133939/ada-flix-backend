@@ -10,5 +10,5 @@ import lombok.NoArgsConstructor;
 public class AvaliarFilmeDTO {
     private Long idFilme;
     private UsuarioDTO usuario;
-    private Integer nota;
+    private Double nota;
 }
