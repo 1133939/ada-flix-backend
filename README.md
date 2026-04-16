@@ -25,21 +25,27 @@
 * http://localhost:8080/flix/cadastrar
     * Cadastrar um filme
         * exemplo json de request:
+    ```json 
         {
             "titulo" : "Harry Potter e a Pedra Filosofal",
             "diretor" : "Silvio Santos",
             "anoLancamento" : 2001,
             "genero": "FANTASIA"
         }
+    ```
+        
 
 * POST http://localhost:8080/flix/avaliar-filme
     * Avaliar um filme
         * exemplo json de request:
-        {
-            "idFilme" : 20,
-            "idUsuario" : 1,
-            "nota" : 4.5
-        }
+        ```json 
+            {
+                "idFilme" : 20,
+                "idUsuario" : 1,
+                "nota" : 4.5
+            }
+        ```
+        
 
 #### Como rodar
 * Siga as instruções em:

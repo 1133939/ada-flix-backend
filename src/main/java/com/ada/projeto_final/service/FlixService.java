@@ -33,6 +33,7 @@ public class FlixService {
 
     @Transactional
     public void avaliarFilme(AvaliarFilmeDTO avaliarFilmeDTO) {
+        System.out.println("Avaliando filme: " + avaliarFilmeDTO.getIdFilme() + " com nota: " + avaliarFilmeDTO.getNota());
         var filme = filmeRepository.findById(avaliarFilmeDTO.getIdFilme()).orElseThrow(() -> new RuntimeException("Filme não encontrado"));
         var avaliacaoFilme = AvaliacaoFilme.generateEntity(avaliarFilmeDTO, filme);
         avaliacaoRepository.save(avaliacaoFilme);
@@ -40,19 +41,23 @@ public class FlixService {
 
     @Transactional
     public void cadastrarFilme(FilmeDTO filmeDto) {
+        System.out.println("Cadastrando filme: " + filmeDto.getTitulo());
         var filme = Filme.generateEntity(filmeDto);
         filmeRepository.save(filme);
     }
 
     public List<NotaMediaPorFaixaEtaria> notaMediaPorFaixaEtarias(String titulo) {
+        System.out.println("Buscando nota média por faixa etária para o filme: " + titulo);
         return notaMediaPorFaixaEtariaRepository.findByFaixaEtaria(titulo);
     }
 
     public List<NumeroAvaliacoesPorPais> numeroAvaliacoesPorPais(String titulo) {
+        System.out.println("Buscando número de avaliações por país para o filme: " + titulo);
         return numeroAvaliacoesPorPaisRepository.findNumeroAvaliacoesPorPais(titulo);
     }
 
     public List<TopFilmesPorGenero> topFilmesMaisPopulares(GeneroEnum genero) {
+        System.out.println("Buscando top filmes por gênero: " + genero);
         return topFilmesPorGeneroRepository.findByGenero(genero);
     }
 }
