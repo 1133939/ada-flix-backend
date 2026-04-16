@@ -29,4 +29,7 @@ public class Usuario {
         this.anoNascimento = Integer.valueOf(usuario.getBirth_year());
         this.pais = usuario.getCountry();
     }
+    public Usuario(Long id){
+        this.id = id;
+    }
 }

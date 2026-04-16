@@ -19,13 +19,13 @@ public class FlixResource {
     private FlixService service;
 
     @PostMapping("/cadastrar")
-    public ResponseEntity<String> cadastrarFilme(FilmeDTO filmeDto) {
+    public ResponseEntity<String> cadastrarFilme(@RequestBody FilmeDTO filmeDto) {
         service.cadastrarFilme(filmeDto);
         return ResponseEntity.ok("Filme cadastrado com sucesso");
     }
 
     @PostMapping("/avaliar-filme")
-    public ResponseEntity<String> avaliarFilme(AvaliarFilmeDTO avaliarFilmeDTO) {
+    public ResponseEntity<String> avaliarFilme(@RequestBody AvaliarFilmeDTO avaliarFilmeDTO) {
         service.avaliarFilme(avaliarFilmeDTO);
         return ResponseEntity.ok("Filme avaliado com sucesso");
     }

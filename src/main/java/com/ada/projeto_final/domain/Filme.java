@@ -37,6 +37,6 @@ public class Filme {
     }
 
     public static Filme generateEntity(FilmeDTO filmeDTO){
-        return new Filme(null, filmeDTO.getTitulo(), filmeDTO.getDiretor(), filmeDTO.getAnoLancamento(), GeneroEnum.valueOf(filmeDTO.getGenero()), null);
+        return new Filme(null, filmeDTO.getTitulo(), filmeDTO.getDiretor(), filmeDTO.getAnoLancamento(), filmeDTO.getGenero(), null);
     }
 }

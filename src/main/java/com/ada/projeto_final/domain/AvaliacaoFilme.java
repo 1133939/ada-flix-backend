@@ -41,6 +41,7 @@ public class AvaliacaoFilme {
         AvaliacaoFilme avaliacao = new AvaliacaoFilme();
         avaliacao.setNota(dto.getNota());
         avaliacao.setFilme(filme);
+        avaliacao.setUsuario(new Usuario(dto.getIdUsuario()));
         return avaliacao;
     }
 

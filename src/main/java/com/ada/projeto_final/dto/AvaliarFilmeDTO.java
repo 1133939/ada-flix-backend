@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class AvaliarFilmeDTO {
     private Long idFilme;
-    private UsuarioDTO usuario;
+    private Long idUsuario;
     private Double nota;
 }
