@@ -1,14 +1,15 @@
 package com.ada.projeto_final.resource;
 
+import com.ada.projeto_final.domain.dados_refinados.*;
 import com.ada.projeto_final.dto.AvaliarFilmeDTO;
 import com.ada.projeto_final.dto.FilmeDTO;
+import com.ada.projeto_final.enums.GeneroEnum;
 import com.ada.projeto_final.service.FlixService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("flix")
@@ -29,18 +30,18 @@ public class FlixResource {
         return ResponseEntity.ok("Filme avaliado com sucesso");
     }
 
-    @GetMapping("/top-filmes-mais-populares")
-    public ResponseEntity<String> topFilmesMaisPopulares() {
-        return ResponseEntity.ok(service.topFilmesMaisPopulares());
+    @GetMapping("/top-filmes-por-genero")
+    public ResponseEntity<List<TopFilmesPorGenero>> topFilmesPorGenero(@RequestParam GeneroEnum genero) {
+        return ResponseEntity.ok(service.topFilmesMaisPopulares(genero));
     }
 
-    @GetMapping("/genero-melhor-avaliacao-media")
-    public ResponseEntity<String> generoMelhorAvaliacaoMedia() {
-        return ResponseEntity.ok(service.generoMelhorAvaliacaoMedia());
+    @GetMapping("/nota-media-por-faixa-etaria")
+    public ResponseEntity<List<NotaMediaPorFaixaEtaria>> notaMediaPorFaixaEtariaDto(@RequestParam String titulo) {
+        return ResponseEntity.ok(service.notaMediaPorFaixaEtarias(titulo));
     }
 
-    @GetMapping("/pais-assiste-mais-filmes")
-    public ResponseEntity<String> paisAssisteMaisFilmes() {
-        return ResponseEntity.ok(service.paisAssisteMaisFilmes());
+    @GetMapping("/numero-avaliacoes-por-pais")
+    public ResponseEntity<List<NumeroAvaliacoesPorPais>> numeroAvaliacoesPorPais(@RequestParam String titulo) {
+        return ResponseEntity.ok(service.numeroAvaliacoesPorPais(titulo));
     }
 }
