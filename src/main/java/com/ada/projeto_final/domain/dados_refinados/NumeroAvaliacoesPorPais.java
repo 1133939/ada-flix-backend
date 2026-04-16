@@ -16,15 +16,19 @@ import java.util.List;
 @NoArgsConstructor
 @Data
 public class NumeroAvaliacoesPorPais {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private Integer quantidadeAvaliacoes;
-
+    private Long quantidadeAvaliacoes;
     private String pais;
+    private Long idFilme;
+    private String titulo;
 
-    @ManyToOne
-    private Filme filme;
-
+    public NumeroAvaliacoesPorPais(NumeroAvaliacoesPorPaisDto numeroAvaliacoesPorPaisDto) {
+        this.quantidadeAvaliacoes = numeroAvaliacoesPorPaisDto.getQuantidadeAvaliacoes();
+        this.pais = numeroAvaliacoesPorPaisDto.getPais();
+        this.idFilme = numeroAvaliacoesPorPaisDto.getIdFilme();
+        this.titulo = numeroAvaliacoesPorPaisDto.getTitulo();
+    }
 }

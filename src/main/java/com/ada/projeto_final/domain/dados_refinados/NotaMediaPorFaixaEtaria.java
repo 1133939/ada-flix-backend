@@ -1,7 +1,5 @@
 package com.ada.projeto_final.domain.dados_refinados;
 
-import com.ada.projeto_final.domain.AvaliacaoFilme;
-import com.ada.projeto_final.domain.Filme;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,9 +15,14 @@ public class NotaMediaPorFaixaEtaria {
     private Long id;
     @Enumerated(EnumType.STRING)
     private FaixaEtariaEnum faixaEtaria;
-    @ManyToOne
-    private Filme filme;
+    private String titulo;
+    private Double mediaNota;
+    private Long idFilme;
 
-    public NotaMediaPorFaixaEtaria(AvaliacaoFilme avaliacao) {
+    public NotaMediaPorFaixaEtaria(NotaMediaPorFaixaEtariaDto notaMediaPorFaixaEtariaDto) {
+        this.faixaEtaria = notaMediaPorFaixaEtariaDto.getFaixaEtaria();
+        this.titulo  = notaMediaPorFaixaEtariaDto.getTitulo();
+        this.mediaNota = notaMediaPorFaixaEtariaDto.getMediaNota();
+        this.idFilme = notaMediaPorFaixaEtariaDto.getIdFilme();
     }
 }

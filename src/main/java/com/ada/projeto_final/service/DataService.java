@@ -66,19 +66,17 @@ public class DataService {
     }
 
     private void notaMediaPorFaixaEtaria() {
-//        var notaMediaPorFaixaEtaria = avaliacaoRepository.findNotaMediaPorFaixaEtaria();
-//        var notaMediaPorFaixaEtarias = avaliacoes.stream().map(avaliacao -> new NotaMediaPorFaixaEtaria(avaliacao)).toList();
-//        notaMediaPorFaixaEtariaRepository.saveAll(notaMediaPorFaixaEtarias);
+        var notaMediaPorFaixaEtaria = avaliacaoRepository.findNotaMediaPorFaixaEtaria().stream().map(NotaMediaPorFaixaEtaria::new).toList();
+        notaMediaPorFaixaEtariaRepository.saveAll(notaMediaPorFaixaEtaria);
     }
 
     private void topFilmesPorGenero() {
-//        var topFilmesDto = avaliacaoRepository.findTopFilmesPorGenero();
-//        var topFilmesPorGeneros = avaliacoes.stream().map(avaliacao -> new TopFilmesPorGenero(avaliacao)).toList();
-//        topFilmesPorGeneroRepository.saveAll(topFilmesPorGeneros);
+        var topFilmesDto = avaliacaoRepository.findTop10FilmesPorGenero().stream().map(TopFilmesPorGenero::new).toList();
+        topFilmesPorGeneroRepository.saveAll(topFilmesDto);
     }
 
     private void numeroDeAvaliacoesPorPais() {
-//        var numeroAvaliacoesPorPais = avaliacaoRepository.findNumeroAvaliacoesPorPais();
-//        numeroAvaliacoesPorPaisRepository.saveAll(numeroAvaliacoesPorPais);
+        var numeroAvaliacoesPorPais = avaliacaoRepository.findNumeroAvaliacoesFilmePorPais().stream().map(NumeroAvaliacoesPorPais::new).toList();
+        numeroAvaliacoesPorPaisRepository.saveAll(numeroAvaliacoesPorPais);
     }
 }

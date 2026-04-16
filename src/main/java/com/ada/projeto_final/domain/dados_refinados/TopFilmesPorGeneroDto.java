@@ -8,6 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @AllArgsConstructor
@@ -16,9 +17,10 @@ import java.util.List;
 public class TopFilmesPorGeneroDto {
 
     private Long id;
-
-    private List<Filme> filme;
-
-    private GeneroEnum generoEnum;
+    private String titulo;
+    private String genero;
+    private BigDecimal mediaNotas;
+    private Long totalAvaliacoes;
+    private Long ranking;
 
 }

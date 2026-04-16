@@ -18,7 +18,7 @@ public class Usuario {
     private Long id;
     private String nome;
     private String pais;
-    private String anoNascimento;
+    private Integer anoNascimento;
 
     @Transient
     private String id_carga;
@@ -26,7 +26,7 @@ public class Usuario {
     public Usuario(UsuarioCarga usuario) {
         this.id_carga = usuario.getUser_id();
         this.nome = usuario.getName();
-        this.anoNascimento = usuario.getBirth_year();
+        this.anoNascimento = Integer.valueOf(usuario.getBirth_year());
         this.pais = usuario.getCountry();
     }
 }
