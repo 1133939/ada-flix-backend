@@ -1,21 +1,181 @@
 movie_id,title,director,release_year,genre,duration_minutes,budget_million,language,created_at
-M1,The Silent Code,Ana Ribeiro,2018,Drama,112,3.5,Portuguese,2018-02-10
-M2,Galaxy Run,Mark Stevens,2020,Sci-Fi,128,120.0,English,2020-06-18
-M3,Last Horizon,Pedro Alvarez,2019,Adventure,140,45.0,Spanish,2019-09-22
-M4,Neon Nights,Julia Kim,2021,Action,110,60.0,English,2021-03-05
-M5,Café Central,Luis Moreira,2017,Romance,98,2.1,Portuguese,2017-11-01
-M6,Cold River,Nora Hansen,2016,Thriller,105,12.0,English,2016-01-20
-M7,Deserto Azul,Renato Lima,2019,Drama,115,5.5,Portuguese,2019-07-14
-M8,Parallel Minds,Akira Tanaka,2022,Sci-Fi,134,80.0,Japanese,2022-08-30
-M9,Echoes of War,Michael Brown,2015,War,150,40.0,English,2015-05-12
-M10,London Fog,Sarah Collins,2018,Mystery,102,8.0,English,2018-10-09
-M11,Ruas de Pedra,Marcos Azevedo,2016,Crime,108,6.5,Portuguese,2016-04-03
-M12,Ocean Breath,Emily Scott,2020,Documentary,90,1.2,English,2020-12-19
-M13,Beyond the Gate,Ivan Petrov,2017,Fantasy,142,30.0,Russian,2017-06-27
-M14,Solar Winds,Aisha Khan,2021,Sci-Fi,125,70.0,English,2021-09-11
-M15,Noite em Tóquio,Hiroshi Nakamura,2019,Drama,118,9.0,Japanese,2019-02-25
-M16,The Long Path,David Miller,2018,Adventure,135,20.0,English,2018-08-17
-M17,Código Vermelho,Fernando Costa,2022,Action,123,55.0,Portuguese,2022-01-30
-M18,Hidden Truths,Linda Moore,2016,Mystery,97,4.0,English,2016-11-08
-M19,Voices From Ice,Sven Larsson,2020,Drama,122,7.3,Swedish,2020-04-21
-M20,Final Signal,Robert King,2021,Thriller,109,18.0,English,2021-07-06
+M1,The Silent Code,Ana Smith,2007,Drama,116,45.4,German,2016-11-24
+M2,The Godfather,Daniel Brown,2017,Drama,89,6.9,Portuguese,2018-09-20
+M3,The Dark Knight,Steven Evans,2002,Drama,176,130.3,French,2021-04-15
+M4,Pulp Fiction,Nora Martins,1990,Drama,105,139.9,Spanish,2019-03-07
+M5,Forrest Gump,Lucas Ribeiro,1995,Drama,133,20.2,Italian,2020-10-09
+M6,Fight Club,Christopher Collins,2024,Drama,100,194.7,Japanese,2016-09-10
+M7,Inception,Linda Alvarez,2002,Drama,175,14.8,German,2018-05-03
+M8,The Matrix,Sarah Ribeiro,2014,Drama,120,91.2,Italian,2020-03-12
+M9,Goodfellas,Marina Miller,2007,Drama,174,187.4,German,2016-10-21
+M10,Se7en,Julia Evans,2005,Drama,105,93.0,Spanish,2023-04-22
+M11,Interstellar,Lucas Johnson,2004,Drama,89,161.2,Japanese,2019-02-07
+M12,Parasite,Nora Tanaka,2003,Drama,168,100.3,German,2022-03-09
+M13,Whiplash,Carlos Scott,2024,Drama,118,149.7,Japanese,2024-07-12
+M14,Gladiator,Sarah Costa,2022,Drama,148,19.1,English,2016-03-21
+M15,Titanic,Julia King,1994,Drama,134,76.9,Japanese,2023-05-18
+M16,The Prestige,Steven Ribeiro,2024,Drama,119,154.0,Spanish,2016-05-14
+M17,Memento,Julia Collins,1990,Drama,177,175.3,Spanish,2023-03-17
+M18,The Departed,Ana Silva,2022,Drama,162,40.6,Spanish,2017-09-25
+M19,Joker,Laura Smith,2010,Drama,147,4.9,Spanish,2019-04-02
+M20,The Lion King,Sarah Young,1995,Drama,95,146.6,Italian,2016-09-25
+M21,Saving Private Ryan,Carlos Costa,2020,Drama,155,33.9,French,2024-07-07
+M22,The Green Mile,Daniel Miller,2009,Drama,136,199.0,German,2020-08-17
+M23,Braveheart,Akira Ribeiro,2005,Drama,113,13.7,English,2024-09-08
+M24,La La Land,Nora Scott,1990,Drama,94,141.9,English,2018-02-02
+M25,A Beautiful Mind,Lucas Brown,2022,Drama,115,56.4,Japanese,2018-09-05
+M26,The Pianist,Nora Young,2020,Drama,116,157.1,Italian,2021-04-04
+M27,No Country for Old Men,Ana King,2012,Drama,139,82.8,Italian,2015-11-21
+M28,Shutter Island,Ana Johnson,2015,Drama,178,68.5,Italian,2016-04-07
+M29,The Truman Show,Michael Evans,2018,Drama,102,85.0,Spanish,2022-04-28
+M30,Her,Patricia Collins,1996,Drama,91,130.8,French,2015-02-25
+M31,Moonlight,Sarah Kim,2016,Drama,147,96.8,Italian,2021-01-06
+M32,Arrival,John Smith,2014,Drama,118,185.4,Italian,2022-05-14
+M33,Blade Runner 2049,Daniel Hansen,1999,Drama,109,60.0,English,2024-12-18
+M34,Mad Max: Fury Road,Christopher Tanaka,1993,Drama,91,117.3,French,2023-03-02
+M35,The Revenant,Laura Brown,2001,Drama,93,119.4,German,2018-07-04
+M36,Django Unchained,Sarah Young,1992,Crime,164,17.3,German,2024-10-17
+M37,The Social Network,David Miller,2010,War,115,53.9,Portuguese,2019-08-11
+M38,1917,Steven Collins,1996,Adventure,94,108.0,French,2019-03-12
+M39,The Imitation Game,Sarah Alvarez,2008,Adventure,105,88.2,French,2019-10-26
+M40,Spotlight,Steven Evans,2009,Fantasy,169,21.6,Portuguese,2019-02-04
+M41,Casablanca,Carlos Martins,2008,Fantasy,162,42.9,Spanish,2018-11-21
+M42,Rocky,Laura Hansen,2006,Thriller,91,19.4,Japanese,2019-01-01
+M43,Alien,Carlos Martins,2000,War,179,88.9,German,2021-09-01
+M44,Aliens,Patricia Costa,2024,Adventure,89,167.1,French,2023-03-14
+M45,The Silence of the Lambs,Christopher Silva,2013,Action,90,179.9,Portuguese,2018-11-04
+M46,Gone Girl,Daniel King,1999,War,115,173.1,Italian,2017-07-01
+M47,The Sixth Sense,Lucas King,2005,Action,119,32.7,German,2016-07-28
+M48,The Notebook,Pedro Scott,2002,Sci-Fi,143,70.6,Italian,2018-04-01
+M49,Amélie,John Tanaka,2007,Romance,93,193.4,Spanish,2020-11-17
+M50,City of God,Daniel Tanaka,1991,Mystery,99,175.5,Spanish,2017-10-09
+M51,Pan's Labyrinth,Ana Turner,2017,Sci-Fi,129,146.0,Spanish,2021-10-17
+M52,Life Is Beautiful,John Young,2002,Adventure,117,9.8,Japanese,2015-09-26
+M53,Coco,Michael Alvarez,2017,Fantasy,93,189.8,Spanish,2024-06-22
+M54,Toy Story,Emma Parker,2009,Adventure,170,82.3,Japanese,2019-09-05
+M55,Finding Nemo,Sofia Moore,2001,Romance,163,114.3,Japanese,2023-01-10
+M56,Up,Michael King,2010,Thriller,144,88.9,German,2018-09-16
+M57,Wall-E,Patricia Silva,2022,Action,169,127.0,Spanish,2016-04-22
+M58,Soul,Sarah Miller,1999,Thriller,88,10.2,Japanese,2024-02-15
+M59,Inside Out,Nora Miller,2014,Mystery,148,80.5,Portuguese,2015-02-25
+M60,The Incredibles,Sarah Kim,2023,Mystery,144,11.0,Portuguese,2016-08-05
+M61,Monsters Inc,Laura Evans,2010,Documentary,141,122.9,German,2023-07-27
+M62,Ratatouille,Akira Kim,2020,Fantasy,142,52.6,Portuguese,2019-09-16
+M63,Frozen,David Collins,1994,Romance,176,57.9,Spanish,2020-06-18
+M64,Moana,Carlos Costa,2004,Adventure,134,139.1,German,2018-02-14
+M65,Encanto,Lucas Evans,2019,Mystery,138,13.4,Italian,2021-07-25
+M66,Avatar,Steven Young,2014,Crime,146,2.2,Spanish,2019-07-28
+M67,Avatar: The Way of Water,Daniel Evans,2004,Mystery,147,44.7,Japanese,2022-01-13
+M68,Black Panther,John Kim,2019,War,101,196.2,French,2015-07-19
+M69,Iron Man,Steven Brown,2017,Crime,102,173.5,Portuguese,2015-05-13
+M70,Captain America: Civil War,Michael Collins,2010,War,128,152.5,Japanese,2019-07-09
+M71,Doctor Strange,Pedro Smith,2024,Adventure,91,200.0,Spanish,2018-11-03
+M72,Thor: Ragnarok,Steven Scott,2002,Sci-Fi,87,124.6,Portuguese,2017-08-22
+M73,Guardians of the Galaxy,Nora Miller,2019,Adventure,174,52.0,Spanish,2017-10-20
+M74,Avengers: Endgame,Julia Silva,1996,Adventure,159,6.1,Spanish,2024-11-13
+M75,Avengers: Infinity War,Michael Brown,2005,Mystery,98,139.7,Spanish,2024-02-26
+M76,Logan,Christopher Alvarez,2024,Crime,139,132.6,English,2023-11-11
+M77,Deadpool,Sofia Hansen,1996,Sci-Fi,140,192.2,German,2022-12-05
+M78,Wonder Woman,Julia Parker,2007,Mystery,163,161.8,French,2022-08-14
+M79,The Batman,David Tanaka,2005,Crime,96,56.5,Japanese,2018-08-19
+M80,Man of Steel,John Tanaka,1991,Crime,148,170.3,Portuguese,2022-04-12
+M81,The Irishman,Lucas Martins,2007,Thriller,156,3.0,Portuguese,2016-04-24
+M82,Heat,Pedro Evans,2005,Mystery,173,95.7,German,2022-08-26
+M83,Collateral,Patricia Silva,2004,Sci-Fi,136,138.7,Spanish,2024-06-16
+M84,Drive,Laura Alvarez,2017,Fantasy,180,110.5,Spanish,2022-05-10
+M85,Nightcrawler,Sarah Ribeiro,2002,Thriller,125,24.8,French,2017-04-07
+M86,Prisoners,David Young,2023,Documentary,161,57.3,English,2018-05-08
+M87,Zodiac,Julia Silva,1990,War,175,107.3,Spanish,2015-01-18
+M88,Argo,Carlos Hansen,1996,Thriller,86,115.2,Japanese,2022-08-11
+M89,Lincoln,Christopher Martins,2020,Action,99,164.6,Japanese,2022-02-19
+M90,The King's Speech,Carlos Costa,2009,Sci-Fi,95,198.8,English,2023-07-20
+M91,Les Misérables,Linda Scott,2023,Crime,133,90.7,Japanese,2019-10-14
+M92,The Theory of Everything,Nora Turner,1993,Thriller,163,192.1,English,2018-11-07
+M93,Bohemian Rhapsody,Patricia Kim,2005,Thriller,107,110.8,Portuguese,2015-07-15
+M94,Elvis,Pedro Silva,1992,Crime,114,58.3,Spanish,2022-02-22
+M95,Top Gun,David Young,2002,Romance,139,23.8,Portuguese,2017-05-27
+M96,Top Gun: Maverick,Patricia Johnson,2000,Action,124,119.4,Italian,2024-05-15
+M97,Mission: Impossible,Akira Silva,2015,Adventure,119,100.6,Japanese,2022-02-20
+M98,John Wick,Sofia Tanaka,2006,Sci-Fi,88,19.2,German,2024-10-01
+M99,Skyfall,Nora Johnson,2001,Thriller,145,104.3,Japanese,2019-03-19
+M100,Casino Royale,Pedro Brown,2020,Mystery,129,82.3,Spanish,2016-03-11
+M101,Spectre,Pedro Silva,2015,Mystery,155,8.3,English,2020-05-11
+M102,No Time to Die,John Parker,1990,Adventure,169,174.0,Japanese,2021-01-07
+M103,Dune,Marina Turner,2021,Fantasy,165,89.0,English,2018-05-18
+M104,The Martian,Emma Collins,2021,Action,100,6.7,German,2024-04-23
+M105,Gravity,Emma Evans,1990,Action,155,82.2,Portuguese,2016-08-04
+M106,Ad Astra,Pedro Silva,2022,Action,175,55.4,Italian,2022-08-08
+M107,First Man,Daniel Costa,2014,Documentary,109,184.5,French,2017-02-09
+M108,Apollo 13,Lucas Parker,2007,Mystery,85,57.3,Spanish,2024-10-22
+M109,Hidden Figures,Carlos Collins,2024,Documentary,146,69.7,French,2023-07-15
+M110,Contact,Michael Scott,2014,War,114,171.3,Japanese,2015-06-24
+M111,Ex Machina,John Moore,1999,Documentary,148,193.0,Portuguese,2023-10-11
+M112,Annihilation,Akira Ribeiro,2023,Adventure,143,4.1,Portuguese,2021-11-05
+M113,Tenet,Pedro Martins,2011,Adventure,164,138.8,German,2016-06-28
+M114,Edge of Tomorrow,John Tanaka,2021,Fantasy,154,8.1,English,2018-11-22
+M115,Looper,Sarah Brown,2017,Thriller,97,152.3,German,2016-08-06
+M116,Minority Report,Steven Johnson,2010,Thriller,92,59.4,Spanish,2021-03-08
+M117,Children of Men,Sofia Young,2001,Fantasy,106,35.8,French,2021-10-22
+M118,District 9,Pedro Young,1999,Romance,114,92.8,Spanish,2022-05-22
+M119,Elysium,Akira Silva,2024,Sci-Fi,105,15.7,Spanish,2024-05-21
+M120,Oblivion,David Collins,2009,Mystery,110,199.9,Italian,2022-02-08
+M121,The Hobbit,Nora Alvarez,2008,Mystery,174,59.8,Italian,2021-05-01
+M122,The Lord of the Rings,Christopher Turner,2021,Crime,121,155.4,Portuguese,2024-06-08
+M123,Harry Potter and the Sorcerer's Stone,Linda Martins,1998,Romance,165,20.3,German,2015-05-26
+M124,Harry Potter and the Prisoner of Azkaban,Christopher Young,2013,Documentary,178,27.2,Spanish,2020-12-14
+M125,Fantastic Beasts,Michael Costa,2024,Action,131,106.6,Spanish,2017-05-27
+M126,The Chronicles of Narnia,Emma Tanaka,1997,Documentary,144,192.6,Portuguese,2018-11-24
+M127,Stardust,Daniel Alvarez,1995,Mystery,135,3.8,French,2016-08-12
+M128,Willow,Nora Moore,2013,Thriller,98,135.3,Japanese,2015-10-18
+M129,Legend,Linda Scott,1994,War,166,164.9,German,2019-11-14
+M130,The NeverEnding Story,Carlos Johnson,1992,Adventure,123,199.2,English,2016-04-18
+M131,Glory,John Collins,2013,Action,170,189.9,German,2023-07-19
+M132,Dunkirk,Sofia Ribeiro,2021,Action,163,82.2,Spanish,2015-12-12
+M133,Hacksaw Ridge,Akira Collins,2005,Romance,131,20.8,German,2020-09-21
+M134,Pearl Harbor,Christopher Moore,2007,War,109,193.7,Italian,2022-02-22
+M135,Fury,Linda Smith,1993,Romance,127,49.5,Portuguese,2024-04-03
+M136,Black Hawk Down,Michael Young,2003,Fantasy,114,66.4,Portuguese,2024-01-09
+M137,The Hurt Locker,Carlos Evans,2006,Action,107,22.9,Italian,2015-03-01
+M138,Zero Dark Thirty,Sarah Young,2010,War,87,35.7,English,2017-12-14
+M139,American Sniper,Ana Brown,2020,Fantasy,142,155.8,French,2024-02-15
+M140,Jarhead,Sarah Turner,1992,Fantasy,178,156.9,Italian,2023-05-15
+M141,Knives Out,Christopher Hansen,2015,Sci-Fi,139,137.5,Japanese,2022-02-03
+M142,Murder on the Orient Express,Linda Costa,1994,War,101,55.7,German,2024-09-23
+M143,The Girl with the Dragon Tattoo,John Turner,2023,War,122,91.3,French,2021-02-26
+M144,Gone Baby Gone,Daniel Miller,2017,Adventure,142,177.7,Japanese,2020-08-13
+M145,Mystic River,Ana Tanaka,2017,Mystery,125,133.4,Spanish,2017-11-16
+M146,The Bone Collector,Patricia Brown,1995,Adventure,140,20.2,German,2020-03-18
+M147,Insomnia,Nora Evans,2011,Sci-Fi,170,25.3,Spanish,2021-12-02
+M148,Wind River,Linda Silva,2012,Thriller,98,116.0,Portuguese,2017-11-16
+M149,The Others,Ana Alvarez,2013,Romance,99,152.8,French,2018-07-28
+M150,The Village,Linda Turner,1991,Fantasy,162,185.9,Italian,2019-01-06
+M151,Free Solo,Emma Tanaka,2012,Thriller,85,37.1,Portuguese,2024-11-13
+M152,My Octopus Teacher,Carlos Smith,1995,Adventure,180,106.6,Japanese,2021-08-11
+M153,The Last Dance,Marina Silva,2010,Action,157,119.6,English,2017-03-25
+M154,13th,Christopher Brown,2007,Crime,141,132.7,Japanese,2024-08-14
+M155,Won't You Be My Neighbor?,Michael Parker,1997,Thriller,129,86.6,Spanish,2024-08-17
+M156,March of the Penguins,Christopher Scott,2015,Thriller,161,11.9,Portuguese,2019-04-25
+M157,Super Size Me,David Silva,2010,Action,100,2.5,German,2021-03-05
+M158,Blackfish,Daniel Scott,2022,Mystery,156,166.8,Italian,2020-02-13
+M159,The Cove,Sofia Smith,2019,Sci-Fi,94,172.6,French,2021-10-13
+M160,Icarus,Emma Ribeiro,2015,Mystery,87,193.3,Portuguese,2024-08-27
+M161,Marriage Story,Patricia King,1996,War,116,87.7,Japanese,2023-02-13
+M162,Manchester by the Sea,Lucas Scott,2011,Thriller,106,16.2,German,2016-09-17
+M163,Nomadland,Marina Alvarez,1999,Romance,115,21.5,Spanish,2018-03-20
+M164,The Whale,Patricia Kim,2021,Action,144,151.1,Italian,2024-08-22
+M165,The Father,Linda Tanaka,2010,Crime,104,88.5,Japanese,2022-11-10
+M166,Room,Nora Johnson,2012,Thriller,149,15.8,Japanese,2022-01-02
+M167,Brooklyn,Emma Brown,1995,War,163,119.2,Japanese,2022-10-18
+M168,Carol,Akira Young,2002,Sci-Fi,126,121.4,French,2017-01-15
+M169,Lady Bird,Lucas Brown,2022,Adventure,167,35.3,Portuguese,2022-08-17
+M170,Little Women,Linda Kim,2013,Fantasy,132,183.7,Japanese,2021-06-22
+M171,Ford v Ferrari,Christopher Tanaka,1994,Crime,127,19.8,German,2021-05-09
+M172,Rush,Carlos Tanaka,1995,Crime,159,133.1,Spanish,2019-11-23
+M173,Moneyball,Carlos Turner,1995,Mystery,124,112.2,German,2020-03-22
+M174,Creed,Patricia King,2022,Fantasy,131,4.6,Spanish,2017-04-11
+M175,Remember the Titans,Michael Scott,1998,Documentary,104,16.4,Italian,2016-09-25
+M176,Coach Carter,Laura Johnson,2011,Fantasy,164,27.1,Japanese,2017-03-06
+M177,Invictus,Julia Collins,1992,Crime,137,73.5,German,2018-08-20
+M178,Miracle,Akira Scott,2024,Thriller,115,62.6,Italian,2022-04-12
+M179,The Blind Side,Akira Collins,2008,Crime,133,101.1,Japanese,2017-04-26
+M180,Warrior,Carlos Martins,1993,Crime,167,96.6,Spanish,2023-02-23

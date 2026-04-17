@@ -1,0 +1,21 @@
+movie_id,title,director,release_year,genre,duration_minutes,budget_million,language,created_at
+M1,The Silent Code,Ana Ribeiro,2018,Drama,112,3.5,Portuguese,2018-02-10
+M2,Galaxy Run,Mark Stevens,2020,Sci-Fi,128,120.0,English,2020-06-18
+M3,Last Horizon,Pedro Alvarez,2019,Adventure,140,45.0,Spanish,2019-09-22
+M4,Neon Nights,Julia Kim,2021,Action,110,60.0,English,2021-03-05
+M5,Café Central,Luis Moreira,2017,Romance,98,2.1,Portuguese,2017-11-01
+M6,Cold River,Nora Hansen,2016,Thriller,105,12.0,English,2016-01-20
+M7,Deserto Azul,Renato Lima,2019,Drama,115,5.5,Portuguese,2019-07-14
+M8,Parallel Minds,Akira Tanaka,2022,Sci-Fi,134,80.0,Japanese,2022-08-30
+M9,Echoes of War,Michael Brown,2015,War,150,40.0,English,2015-05-12
+M10,London Fog,Sarah Collins,2018,Mystery,102,8.0,English,2018-10-09
+M11,Ruas de Pedra,Marcos Azevedo,2016,Crime,108,6.5,Portuguese,2016-04-03
+M12,Ocean Breath,Emily Scott,2020,Documentary,90,1.2,English,2020-12-19
+M13,Beyond the Gate,Ivan Petrov,2017,Fantasy,142,30.0,Russian,2017-06-27
+M14,Solar Winds,Aisha Khan,2021,Sci-Fi,125,70.0,English,2021-09-11
+M15,Noite em Tóquio,Hiroshi Nakamura,2019,Drama,118,9.0,Japanese,2019-02-25
+M16,The Long Path,David Miller,2018,Adventure,135,20.0,English,2018-08-17
+M17,Código Vermelho,Fernando Costa,2022,Action,123,55.0,Portuguese,2022-01-30
+M18,Hidden Truths,Linda Moore,2016,Mystery,97,4.0,English,2016-11-08
+M19,Voices From Ice,Sven Larsson,2020,Drama,122,7.3,Swedish,2020-04-21
+M20,Final Signal,Robert King,2021,Thriller,109,18.0,English,2021-07-06

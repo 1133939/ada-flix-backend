@@ -18,9 +18,9 @@
     * Retorna o top 10, se existir mais de 10 filmes na base deste genero
     * opcoes de genero:
         * DRAMA, ACAO, AVENTURA, COMEDIA, SCI-FI, ROMANCE, THRILLER, GUERRA, MISTERIO, CRIME, DOCUMENTARIO, FANTASIA
-* http://localhost:8080/flix/nota-media-por-faixa-etaria?titulo=The Silent Code
+* http://localhost:8080/flix/nota-media-por-faixa-etaria?titulo=The%20Silent%20Code
     * Retorna a media das avaliacoes do filme do parametro separado por faixa etária
-* http://localhost:8080/flix/numero-avaliacoes-por-pais?titulo=The Silent Code
+* http://localhost:8080/flix/numero-avaliacoes-por-pais?titulo=The%20Silent%20Code
     * Retorna a quantidade de avaliacoes por pais do filme do parametro
 * http://localhost:8080/flix/cadastrar
     * Cadastrar um filme
