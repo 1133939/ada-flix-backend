@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("flix")
+@CrossOrigin("*")
 public class FlixResource {
 
     @Autowired
