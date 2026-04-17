@@ -13,6 +13,20 @@
     * username: sa
     * password: password
 
+#### TABELAS DO BANCO DE DADOS
+* Data Lake (dados brutos carregados do csv)
+    * Filme_Carga
+    * Avaliacao_filme_carga
+    * Usuario_carga
+* Data Warehouse (entidades do negócio preenchidas após carga dos dados brutos ou via api)
+    * Filme
+    * Avaliacao_Filme
+    * Usuario
+* Data Mart (dados otimizados para consulta)
+    * Top_filmes_por_genero -> Rankeia os filmes por genero, baseado na nota média e quantidade de avaliações
+    * Numero_avaliacoes_por_pais -> Contabiliza a quantidade de avaliações por país para cada filme
+    * Nota_media_por_faixa_etaria -> Calcula a nota média dos filmes por faixa etária (0-17, 18-24, 25-34, 35-49, 50+)
+
 #### ENDPOINTS
 * http://localhost:8080/flix/top-filmes-por-genero?genero=DRAMA
     * Retorna o top 10, se existir mais de 10 filmes na base deste genero
